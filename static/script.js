@@ -8,4 +8,16 @@ class Country{
             this.alpha2Code = alpha2Code
     }
 }
-Added a constructor
+
+let contr = []
+function addCountry(countries) {
+    let country = contr[i]
+    let createDiv = document.createElement('div')
+    createDiv.innerHTML=
+        `<h1>${countries.name}</h1>
+        <p>Capital: ${countries.capital}</p>
+        <p>${countries.flag}</p>
+        <p>Currencies: ${countries.currencies}</p>
+        <p>Region: ${countries.region}</p> 
+         <a href="https://www.google.com/search?q=${countries.name}" target="_blank">More</a>   `
+ }
